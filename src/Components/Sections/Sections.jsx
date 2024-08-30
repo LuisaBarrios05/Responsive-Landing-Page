@@ -1,7 +1,7 @@
 import './SectionsStyles.css'
 import { useState, useEffect } from 'react';
-import leftArrow from 'src/assets/icons/left-arrow.svg';
-import rightArrow from "src/assets/icons/right-arrow.svg";
+import leftArrow from '../../assets/icons/left-arrow.svg';
+import rightArrow from '../../assets/icons/right-arrow.svg'
 
 const Sections = () => {
 
