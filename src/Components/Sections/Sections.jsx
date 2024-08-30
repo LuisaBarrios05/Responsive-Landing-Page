@@ -1,5 +1,7 @@
 import './SectionsStyles.css'
 import { useState, useEffect } from 'react';
+import leftArrow from 'src/assets/icons/left-arrow.svg';
+import rightArrow from "src/assets/icons/right-arrow.svg";
 
 const Sections = () => {
 
@@ -78,12 +80,12 @@ const Sections = () => {
                     <div className="table-wrapper">
                         {currentTableIndex === 1 && (
                             <button className="button-table button-table-left" onClick={() => changeTable(-1)}>
-                                <img className="button-left-image" src="src/assets/icons/left-arrow.svg" alt="Left arrow" />
+                                <img className="button-left-image" src={leftArrow} alt="Left arrow" />
                             </button>
                         )}
                         {currentTableIndex === 0 && (
                             <button className="button-table button-table-right" onClick={() => changeTable(1)}>
-                                <img className="button-right-image" src="src/assets/icons/right-arrow.svg" alt="Right arrow" />
+                                <img className="button-right-image" src={rightArrow} alt="Right arrow" />
                             </button>
                         )}
                         <div className="main-currency-table slide-table">
@@ -191,7 +193,7 @@ const Sections = () => {
                 <h2 className='section-title'>Escoge el plan que mejor se ajuste a ti.</h2>
                 <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
                 <div className="plans-slider-wrapper">
-                    <button className="slider-button left" onClick={scrollLeft}><img className="button-left-image" src="src/assets/icons/left-arrow.svg" alt="Left arrow" /></button>
+                    <button className="slider-button left" onClick={scrollLeft}><img className="button-left-image" src={leftArrow}alt="Left arrow" /></button>
                     <div class="plans-container--slider">
                         <div class="plans-container--card">
                             <div class="plan-card">
@@ -222,7 +224,7 @@ const Sections = () => {
                             </div>
                         </div>
                     </div>
-                    <button className="slider-button right" onClick={scrollRight}> <img className="button-right-image" src="src/assets/icons/right-arrow.svg" alt="Right arrow" /></button>
+                    <button className="slider-button right" onClick={scrollRight}> <img className="button-right-image" src={rightArrow}alt="Right arrow" /></button>
                 </div>
             </section>
         </div>
