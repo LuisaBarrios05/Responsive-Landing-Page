@@ -3,7 +3,7 @@ import logo from '../../assets/img/logo.svg'
 const Header = () =>{
     return(
       <div className='header-container'>
-        <img src={logo} alt="Logo de Batatabit" />
+        <img className="header-img"src={logo} alt="Logo de Batatabit" />
         <div className="header--title-container">
         <h1>La próxima revolución en el intercambio de criptomodenas.</h1>
         <p>
