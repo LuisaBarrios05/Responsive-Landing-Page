@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['src/assets/icons/left-arrow.svg',"src/assets/icons/right-arrow.svg"]
+      external: ['./src/assets/icons/left-arrow.svg',"./src/assets/icons/right-arrow.svg"]
     }
   }
 })
