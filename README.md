@@ -1,8 +1,18 @@
-# React + Vite
+# Responsive Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una landing page diseñada para adaptarse a diferentes dispositivos, incluyendo celulares, tabletas y ordenadores. Fue desarrollado como parte de una práctica de diseño responsivo sugerida por Platzi.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**
+- **React**
+- **CSS**
+
+## Características
+
+- **Diseño Adaptativo**: La landing page se ajusta al tamaño de la pantalla, proporcionando una experiencia de usuario óptima en dispositivos móviles, tabletas y ordenadores.
+- **Performance Optimizada**: Gracias a Vite, el tiempo de construcción y carga del proyecto es reducido.
+
+## Despliegue
+
+El proyecto está desplegado en Netlify. Puedes verlo en funcionamiento en el siguiente enlace: [https://subtle-treacle-7c9109.netlify.app/]
